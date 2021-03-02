@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
     Favorite.delete_all
-    Resort.delete_all
+    # Resort.delete_all
 
 squaw = Resort.create(name: "Squaw Valley", rating: 9.5, visited: false)
 alpine = Resort.create(name: "Alpine Meadows", rating: 8.9, visited: false)
