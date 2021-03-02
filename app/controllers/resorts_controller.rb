@@ -1,5 +1,5 @@
 class ResortsController < ApplicationController
-
+    skip_before_action :authorized
     def create
         resort = Resort.create(resort_params)
     end
