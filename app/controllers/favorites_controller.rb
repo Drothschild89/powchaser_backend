@@ -7,7 +7,8 @@ class FavoritesController < ApplicationController
     end
 
     def create
-        favorite = Favorite.create(favorite_params)
+        # byebug
+        favorite = Favorite.create!(favorite_params)
         render json: favorite
     end
 
