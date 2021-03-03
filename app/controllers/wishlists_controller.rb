@@ -1,11 +1,14 @@
 class WishlistsController < ApplicationController
+    skip_before_action :authorized
+
     def index
         wishlists = Wishlist.all
         render json: wishlists
     end
 
     def create
-        wishlist = Wishlist.create(wishlist_params)
+        wishlist = Wishlist.create!(wishlist_params)
+        render json: wishlist
     end
 
     private

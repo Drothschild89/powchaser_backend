@@ -7,8 +7,18 @@ class FavoritesController < ApplicationController
     end
 
     def create
-        # byebug
         favorite = Favorite.create!(favorite_params)
+        render json: favorite
+    end
+
+    def update
+        favorite = Favorite.find(favorite_params)
+        render json: favorite
+    end
+
+    def destroy
+        favorite = Favorite.find(params[:id])
+        favorite.destroy
         render json: favorite
     end
 
