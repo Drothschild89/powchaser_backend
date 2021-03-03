@@ -11,8 +11,15 @@ class FavoritesController < ApplicationController
         render json: favorite
     end
 
+    def show    
+      favorite = Favorite.find(params[:id])
+      render json: favorite
+  end
+
     def update
-        favorite = Favorite.find(favorite_params)
+        favorite = Favorite.find(params[:id])
+        favorite.update(rating: favorite_params[:rating])
+        # byebug
         render json: favorite
     end
 
