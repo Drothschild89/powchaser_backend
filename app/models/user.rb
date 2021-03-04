@@ -11,6 +11,11 @@ class User < ApplicationRecord
         JSON.parse(RestClient.get(url))
         end
 
+        # def self.get_request(triplet)
+        #   url = "http://api.powderlin.es/station/#{triplet}?days=30"
+        #   JSON.parse(RestClient.get(url))
+        #   end
+
         def self.get_request_alpine
             url = "http://api.powderlin.es/station/908:WA:SNTL?days=30"
             JSON.parse(RestClient.get(url))

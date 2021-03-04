@@ -7,6 +7,7 @@ class WishlistsController < ApplicationController
     end
 
     def create
+      # byebug
         wishlist = Wishlist.create!(wishlist_params)
         render json: wishlist
     end

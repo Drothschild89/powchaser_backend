@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     get '/stevens', to: 'users#render_stevens'
     get '/paradise', to: 'users#render_paradise'
     get '/cayuse', to: 'users#render_cayuse'
-
+  
     post '/login', to: 'auth#create'
     get '/profile', to: 'users#profile'
     # post '/signup', to: 'users#create'
