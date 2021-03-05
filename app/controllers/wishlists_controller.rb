@@ -1,8 +1,8 @@
 class WishlistsController < ApplicationController
-    skip_before_action :authorized
+    # skip_before_action :authorized
 
     def index
-        wishlists = Wishlist.all
+        wishlists = Wishlist.where('user_id =?' , current_user.id)
         render json: wishlists
     end
 
