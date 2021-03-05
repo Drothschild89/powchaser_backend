@@ -1,8 +1,8 @@
 class FavoritesController < ApplicationController
-    skip_before_action :authorized
+    # skip_before_action :authorized
 
     def index
-        favorites = Favorite.all
+        favorites = Favorite.where('user_id =?', current_user.id)
         render json: favorites
     end
 
