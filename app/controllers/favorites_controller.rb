@@ -18,7 +18,8 @@ class FavoritesController < ApplicationController
 
     def update
         favorite = Favorite.find(params[:id])
-        favorite.update(rating: favorite_params[:rating])
+        favorite.update(favorite_params)
+        # favorite.update(rating: favorite_params[:rating])
         # byebug
         render json: favorite
     end
@@ -32,6 +33,6 @@ class FavoritesController < ApplicationController
     private
 
     def favorite_params
-        params.require(:favorite).permit(:rating, :user_id, :resort_id)
+        params.require(:favorite).permit(:rating, :user_id, :resort_id, :note)
     end
 end
