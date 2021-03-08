@@ -25,10 +25,11 @@ class UsersController < ApplicationController
       render json: {data: get}
     end
 
-    # def render_mountain
-    #     mountain = Resort.find(params[:resort_id])
-    #     get = User.get_request(mountain.triplet)
-    # end
+    def render_mountain
+        mountain = Resort.find(params[:resort_id])
+        get = User.get_request(mountain.triplet)
+        render json: get
+    end
 
     def render_alpine
       get = User.get_request_alpine

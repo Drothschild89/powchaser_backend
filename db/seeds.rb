@@ -5,15 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+    Wishlist.delete_all 
     Favorite.delete_all
     Resort.delete_all
+    
 
-squaw = Resort.create(name: "Squaw Valley", rating: 9.5, visited: false, us_state: "CA")
-alpine = Resort.create(name: "Alpine Meadows", rating: 8.9, visited: false, us_state: "CA")
-heavenly = Resort.create(name: "Heavenly Valley", rating: 8.7, visited: false, us_state: "CA")
-stevens = Resort.create(name: "Stevens Pass", rating: 8.4, visited: false, us_state: "WA")
-paradise = Resort.create(name: "Paradise Mt. Rainier", rating: 8.0, visited: false, us_state: "WA")
-crystal = Resort.create(name: "Cayuse / Crystal Mountain", rating: 8.2, visited: false, us_state: "WA")
+# squaw = Resort.create(name: "Squaw Valley", rating: 9.5, visited: false, us_state: "CA")
+# alpine = Resort.create(name: "Alpine Meadows", rating: 8.9, visited: false, us_state: "CA")
+# heavenly = Resort.create(name: "Heavenly Valley", rating: 8.7, visited: false, us_state: "CA")
+# stevens = Resort.create(name: "Stevens Pass", rating: 8.4, visited: false, us_state: "WA")
+# paradise = Resort.create(name: "Paradise Mt. Rainier", rating: 8.0, visited: false, us_state: "WA")
+# crystal = Resort.create(name: "Cayuse / Crystal Mountain", rating: 8.2, visited: false, us_state: "WA")
 
 mountains = [
   {
@@ -169,17 +171,6 @@ mountains = [
   timezone: -7,
   triplet: "1015:WY:SNTL",
   wind: true
-  },
-  {
-  elevation: 900,
-  location: {
-  lat: 65.15,
-  lng: -147.55
-  },
-  name: "CARIBOU SNOW PILLOW",
-  timezone: -9,
-  triplet: "210:AK:MSNT",
-  wind: false
   },
   {
   elevation: 4890,
@@ -9554,3 +9545,16 @@ mountains = [
   wind: false
   }
   ]
+
+
+mountains.each do |m| 
+  Resort.create!(
+    name: m[:name],
+    rating: 0,
+    visited: false,
+    triplet: m[:triplet],
+    lat: m[:location][:lat],
+    lon: m[:location][:lng],
+    us_state: m[:triplet].split(':')[1]
+  )
+end
