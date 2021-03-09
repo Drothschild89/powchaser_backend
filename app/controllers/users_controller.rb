@@ -22,7 +22,7 @@ class UsersController < ApplicationController
 
     def render_request
       get = User.get_request
-      render json: get
+      render json: {data: get}
     end
 
     def render_mountain
@@ -32,8 +32,8 @@ class UsersController < ApplicationController
     end
 
 
-    def render_alpine
-      get = User.get_request_alpine
+    def render_squaw
+      get = User.squaw_request
       render json: {data: get}
     end
 

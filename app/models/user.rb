@@ -6,7 +6,7 @@ class User < ApplicationRecord
     has_secure_password
     validates :username, uniqueness: { case_sensitive: false }
 
-    def self.get_request
+    def self.squaw_request
         url = "http://api.powderlin.es/station/784:CA:SNTL?days=30"
         JSON.parse(RestClient.get(url))
         end

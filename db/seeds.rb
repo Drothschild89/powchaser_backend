@@ -612,17 +612,7 @@ mountains = [
   triplet: "694:UT:SNTL",
   wind: false
   },
-  {
-  elevation: 320,
-  location: {
-  lat: 58.82001,
-  lng: -156.99064
-  },
-  name: "LOWER MULCHATNA",
-  timezone: -9,
-  triplet: "1233:AK:SNTL",
-  wind: true
-  },
+  
   {
   elevation: 7100,
   location: {
@@ -700,17 +690,7 @@ mountains = [
   triplet: "663:CO:SNTL",
   wind: false
   },
-  {
-  elevation: 7000,
-  location: {
-  lat: 41.5687,
-  lng: -115.0324
-  },
-  name: "JAKES CREEK",
-  timezone: -8,
-  triplet: "1211:NV:SNTLT",
-  wind: false
-  },
+ 
   {
   elevation: 4930,
   location: {
@@ -810,17 +790,7 @@ mountains = [
   triplet: "1200:NV:SNTLT",
   wind: false
   },
-  {
-  elevation: 450,
-  location: {
-  lat: 64.85,
-  lng: -147.8
-  },
-  name: "FAIRBANKS F.O.",
-  timezone: -9,
-  triplet: "1174:AK:SNTL",
-  wind: false
-  },
+  
   {
   elevation: 1400,
   location: {
@@ -876,17 +846,7 @@ mountains = [
   triplet: "948:AK:SNTL",
   wind: false
   },
-  {
-  elevation: 9980,
-  location: {
-  lat: 40.5123,
-  lng: -105.7656
-  },
-  name: "LONG DRAW RESV",
-  timezone: -7,
-  triplet: "1123:CO:SNTL",
-  wind: false
-  },
+  
   {
   elevation: 5400,
   location: {
@@ -1481,17 +1441,7 @@ mountains = [
   triplet: "751:WY:SNTL",
   wind: false
   },
-  {
-  elevation: 1660,
-  location: {
-  lat: 59.72893,
-  lng: -150.66113
-  },
-  name: "KACHEMAK CREEK",
-  timezone: -9,
-  triplet: "1063:AK:SNTL",
-  wind: false
-  },
+
   {
   elevation: 3400,
   location: {
@@ -3076,17 +3026,7 @@ mountains = [
   triplet: "862:MT:SNTL",
   wind: false
   },
-  {
-  elevation: 1630,
-  location: {
-  lat: 63.3532,
-  lng: -142.98164
-  },
-  name: "TOK",
-  timezone: -9,
-  triplet: "2080:AK:SCAN",
-  wind: false
-  },
+
   {
   elevation: 7659,
   location: {
@@ -3703,17 +3643,7 @@ mountains = [
   triplet: "462:CA:SNTL",
   wind: false
   },
-  {
-  elevation: 2520,
-  location: {
-  lat: 65.3671,
-  lng: -146.592
-  },
-  name: "UPPER NOME CREEK",
-  timezone: -9,
-  triplet: "1090:AK:SNTL",
-  wind: false
-  },
+
   {
   elevation: 9313,
   location: {
@@ -4297,17 +4227,7 @@ mountains = [
   triplet: "1010:OR:SNTL",
   wind: false
   },
-  {
-  elevation: 1225,
-  location: {
-  lat: 63.931,
-  lng: -145.33333
-  },
-  name: "RHOADS CREEK",
-  timezone: -9,
-  triplet: "1178:AK:SNTL",
-  wind: false
-  },
+
   {
   elevation: 8400,
   location: {
@@ -5023,17 +4943,7 @@ mountains = [
   triplet: "1171:WA:SNTL",
   wind: false
   },
-  {
-  elevation: 1150,
-  location: {
-  lat: 64.75,
-  lng: -148.3
-  },
-  name: "BONANZA CREEK",
-  timezone: -9,
-  triplet: "208:AK:MSNT",
-  wind: false
-  },
+
   {
   elevation: 5800,
   location: {
@@ -8037,17 +7947,7 @@ mountains = [
   triplet: "746:NV:SNTL",
   wind: false
   },
-  {
-  elevation: 3050,
-  location: {
-  lat: 68.61683,
-  lng: -149.30017
-  },
-  name: "IMNAVIAT CREEK",
-  timezone: -9,
-  triplet: "968:AK:SCAN",
-  wind: false
-  },
+
   {
   elevation: 6430,
   location: {
@@ -8389,17 +8289,7 @@ mountains = [
   triplet: "432:UT:SNTL",
   wind: false
   },
-  {
-  elevation: 100,
-  location: {
-  lat: 59.13423,
-  lng: -159.09282
-  },
-  name: "WEARY LAKE",
-  timezone: -9,
-  triplet: "1234:AK:SNTL",
-  wind: true
-  },
+
   {
   elevation: 6400,
   location: {
@@ -8851,17 +8741,7 @@ mountains = [
   triplet: "823:UT:SNTL",
   wind: false
   },
-  {
-  elevation: 250,
-  location: {
-  lat: 61.3898,
-  lng: -150.02667
-  },
-  name: "POINT MACKENZIE",
-  timezone: -9,
-  triplet: "1002:AK:SNTL",
-  wind: false
-  },
+
   {
   elevation: 9000,
   location: {
