@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     get '/paradise', to: 'users#render_paradise'
     get '/cayuse', to: 'users#render_cayuse'
     post '/pow', to: 'users#render_mountain'
+    get '/powder', to: 'resorts#get_mountains'
   
     post '/login', to: 'auth#create'
     get '/profile', to: 'users#profile'

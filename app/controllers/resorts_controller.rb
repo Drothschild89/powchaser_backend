@@ -14,6 +14,11 @@ class ResortsController < ApplicationController
         render json: resort
     end
 
+    def get_mountains
+      get = Resort.get_mountains
+      render json: {data: get}
+    end
+
     private
 
     def resort_params

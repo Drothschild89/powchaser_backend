@@ -22,7 +22,7 @@ class UsersController < ApplicationController
 
     def render_request
       get = User.get_request
-      render json: {data: get}
+      render json: get
     end
 
     def render_mountain
@@ -30,6 +30,7 @@ class UsersController < ApplicationController
         get = User.get_request(mountain.triplet)
         render json: get
     end
+
 
     def render_alpine
       get = User.get_request_alpine
