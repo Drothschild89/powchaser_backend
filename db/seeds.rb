@@ -735,17 +735,7 @@ mountains = [
   triplet: "940:CO:SNTL",
   wind: false
   },
-  {
-  elevation: 6650,
-  location: {
-  lat: 41.6716,
-  lng: -116.0703
-  },
-  name: "COLUMBIA BASIN",
-  timezone: -8,
-  triplet: "1204:NV:SNTLT",
-  wind: false
-  },
+  
   {
   elevation: 5930,
   location: {
@@ -802,17 +792,7 @@ mountains = [
   triplet: "955:AK:SNTL",
   wind: true
   },
-  {
-  elevation: 6770,
-  location: {
-  lat: 36.57285,
-  lng: -115.20422
-  },
-  name: "PINE NUT",
-  timezone: -8,
-  triplet: "2144:NV:SCAN",
-  wind: false
-  },
+
   {
   elevation: 7600,
   location: {
@@ -1221,17 +1201,7 @@ mountains = [
   triplet: "834:CA:SNTL",
   wind: false
   },
-  {
-  elevation: 8000,
-  location: {
-  lat: 39.2334,
-  lng: -114.2427
-  },
-  name: "SILVER CREEK NV",
-  timezone: -8,
-  triplet: "1205:NV:SNTLT",
-  wind: false
-  },
+ 
   {
   elevation: 2030,
   location: {
@@ -1849,17 +1819,7 @@ mountains = [
   triplet: "2145:NV:SCAN",
   wind: false
   },
-  {
-  elevation: 9886,
-  location: {
-  lat: 37.65812,
-  lng: -115.20422
-  },
-  name: "HAYFORD PEAK",
-  timezone: -8,
-  triplet: "2143:NV:SCAN",
-  wind: false
-  },
+ 
   {
   elevation: 6580,
   location: {
@@ -2124,17 +2084,7 @@ mountains = [
   triplet: "1151:UT:SNTL",
   wind: false
   },
-  {
-  elevation: 7420,
-  location: {
-  lat: 41.3398,
-  lng: -116.9806
-  },
-  name: "SNOWSTORM MTN",
-  timezone: -8,
-  triplet: "1208:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 10740,
   location: {
@@ -2201,17 +2151,7 @@ mountains = [
   triplet: "562:MT:SNTL",
   wind: false
   },
-  {
-  elevation: 7000,
-  location: {
-  lat: 40.9785,
-  lng: -115.1722
-  },
-  name: "TENT MTN LOWER",
-  timezone: -8,
-  triplet: "1202:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 8000,
   location: {
@@ -2619,17 +2559,7 @@ mountains = [
   triplet: "1068:WA:SNTL",
   wind: true
   },
-  {
-  elevation: 5860,
-  location: {
-  lat: 41.9045,
-  lng: -119.4436
-  },
-  name: "SHELDON",
-  timezone: -8,
-  triplet: "750:NV:SCAN",
-  wind: false
-  },
+
   {
   elevation: 10110,
   location: {
@@ -4657,17 +4587,7 @@ mountains = [
   triplet: "754:MT:SNTL",
   wind: false
   },
-  {
-  elevation: 6720,
-  location: {
-  lat: 41.78333,
-  lng: -119.61667
-  },
-  name: "BALD MTN AM",
-  timezone: -8,
-  triplet: "1240:NV:SNTL",
-  wind: false
-  },
+  
   {
   elevation: 8400,
   location: {
@@ -4866,17 +4786,7 @@ mountains = [
   triplet: "1219:OR:SNTLT",
   wind: false
   },
-  {
-  elevation: 7000,
-  location: {
-  lat: 41.8928,
-  lng: -115.8582
-  },
-  name: "MERRITT MOUNTAIN",
-  timezone: -8,
-  triplet: "1207:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 9600,
   location: {
@@ -6286,17 +6196,7 @@ mountains = [
   triplet: "585:WY:SNTL",
   wind: false
   },
-  {
-  elevation: 7440,
-  location: {
-  lat: 38.94565,
-  lng: -115.37918
-  },
-  name: "WHITE RIVER NV",
-  timezone: -8,
-  triplet: "1213:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 7400,
   location: {
@@ -6704,17 +6604,7 @@ mountains = [
   triplet: "595:NM:SNTL",
   wind: false
   },
-  {
-  elevation: 8720,
-  location: {
-  lat: 38.9965,
-  lng: -115.4245
-  },
-  name: "CORDUROY FLAT",
-  timezone: -8,
-  triplet: "1209:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 5010,
   location: {
@@ -7892,17 +7782,7 @@ mountains = [
   triplet: "906:UT:SNTL",
   wind: false
   },
-  {
-  elevation: 9200,
-  location: {
-  lat: 39.0852,
-  lng: -114.8997
-  },
-  name: "DEFIANCE MINES",
-  timezone: -8,
-  triplet: "1210:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 8200,
   location: {
@@ -7992,17 +7872,7 @@ mountains = [
   triplet: "367:WY:SNTL",
   wind: false
   },
-  {
-  elevation: 7000,
-  location: {
-  lat: 41.2687,
-  lng: -116.8033
-  },
-  name: "MIDAS",
-  timezone: -8,
-  triplet: "1206:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 8040,
   location: {
@@ -8179,17 +8049,7 @@ mountains = [
   triplet: "354:SD:SNTL",
   wind: false
   },
-  {
-  elevation: 7800,
-  location: {
-  lat: 41.4081,
-  lng: -115.4466
-  },
-  name: "STAG MOUNTAIN",
-  timezone: -8,
-  triplet: "1203:NV:SNTLT",
-  wind: false
-  },
+
   {
   elevation: 5280,
   location: {
@@ -9061,17 +8921,7 @@ mountains = [
   triplet: "1235:NV:SNTLT",
   wind: false
   },
-  {
-  elevation: 7198,
-  location: {
-  lat: 39.46593,
-  lng: -117.62162
-  },
-  name: "PORTER CANYON",
-  timezone: -8,
-  triplet: "2170:NV:SCAN",
-  wind: false
-  },
+
   {
   elevation: 6770,
   location: {
