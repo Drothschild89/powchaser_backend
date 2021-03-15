@@ -31,33 +31,11 @@ class UsersController < ApplicationController
         render json: get
     end
 
-
     def render_squaw
       get = User.squaw_request
       render json: {data: get}
     end
 
-    def render_heavenly
-      get = User.get_request_heavenly
-      render json: {data: get}
-    end
-
-    def render_stevens
-      get = User.get_request_stevens
-      render json: {data: get}
-    end
-
-    def render_paradise
-      get = User.get_request_paradise
-      render json: {data: get}
-    end
-
-
-    def render_cayuse
-      get = User.get_request_cayuse
-      render json: {data: get}
-    end
-  
     private
   
     def user_params
