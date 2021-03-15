@@ -22,8 +22,8 @@
 ![Screenshot3](https://user-images.githubusercontent.com/67489174/111221495-cc5af100-8597-11eb-8190-3d781b5221e7.jpg)
 
 
-<h3>Link to backend:</h3>
-<h3>https://github.com/Drothschild89/powchaser_backend</h3>
+<h3>Link to frontend:</h3>
+<h3>https://github.com/Drothschild89/pow-chaser/tree/master</h3>
 
 <h3>Created with Ruby: 2.6.1, Rails: 6.11, Javascript: ES6, React: 17.0.1</h3>
 
